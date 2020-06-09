@@ -1,0 +1,23 @@
+{
+  "name": "cdk_lambda_demo_project",
+  "version": "0.1.0",
+  "bin": {
+    "cdk_lambda_demo_project": "bin/cdk_lambda_demo_project.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.42.0",
+    "aws-cdk": "1.42.0",
+    "jest": "^25.5.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.44.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.44.0",
+    "@aws-cdk/aws-sns": "^1.44.0",
+    "@aws-cdk/core": "1.42.0"
+  }
+}

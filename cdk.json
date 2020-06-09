@@ -1,0 +1,7 @@
+{
+  "app": "node bin/cdk_lambda_demo_project.js",
+  "context": {
+    "@aws-cdk/core:enableStackNameDuplicates": "true",
+    "aws-cdk:enableDiffNoFail": "true"
+  }
+}
