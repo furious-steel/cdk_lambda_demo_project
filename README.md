@@ -2,7 +2,7 @@
 
 This is a cdk lambda demo project for JavaScript development with CDK.
 
-run 'cdk bootstrap' if its the first time aws ccount/region is using cdk
+run `cdk bootstrap` if its the first time aws ccount/region is using cdk
 
 run `npm install` to install the required dependencies
 
